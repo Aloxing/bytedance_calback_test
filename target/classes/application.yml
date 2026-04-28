@@ -1,0 +1,12 @@
+server:
+  port: 8000
+
+spring:
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DB:bytedance}?useSSL=false&serverTimezone=UTC&characterEncoding=utf8
+    username: ${MYSQL_USERNAME:root}
+    password: ${MYSQL_PASSWORD:root}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+cloud:
+  env: ${CLOUD_ENV}
