@@ -1,0 +1,6 @@
+com\bytedance\douyinclouddemo\application\dto\command\OrderInfoCmd.class
+com\bytedance\douyinclouddemo\common\util\SignUtil.class
+com\bytedance\douyinclouddemo\interfaces\web\TradeCallBackController.class
+com\bytedance\douyinclouddemo\interfaces\web\TradeStatusController.class
+com\bytedance\douyinclouddemo\DouyincloudDemoApplication.class
+com\bytedance\douyinclouddemo\application\dto\command\OrderSuccessPayInfoCmd.class

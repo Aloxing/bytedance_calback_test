@@ -1,6 +1,10 @@
 server:
   port: 8000
   address: 0.0.0.0
+  ssl:
+    protocol: TLS
+    key-store: classpath:aloxing.com.jks
+    key-store-password: 6notn26h72yn
 
 spring:
   datasource:
